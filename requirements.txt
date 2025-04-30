@@ -1,0 +1,10 @@
+streamlit
+tensorflow
+keras
+openai
+google-generativeai
+opencv-python
+numpy
+librosa
+soundfile
+matplotlib
