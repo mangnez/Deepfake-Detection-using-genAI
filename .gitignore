@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS / Linux system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# TensorFlow / Keras model files
+*.h5
+*.hdf5
+*.keras
+*.pb
+
+# Streamlit cache
+.streamlit/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Local data files (optional)
+*.wav
+*.mp4
+*.avi
+*.mkv
+*.mp3
+
+# Secrets / API keys (if using .env)
+.env
