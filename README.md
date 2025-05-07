@@ -2,13 +2,13 @@
 
 This project is a **Streamlit-based web application** that allows you to:
 
-✅ Detect deepfake videos using a pre-trained TensorFlow video model  
-✅ Detect deepfake audios using a pre-trained audio classifier  
-✅ Chat with an AI-powered assistant (via Gemini API) to explore topics related to deepfake detection, risks, countermeasures, legal aspects, and ethical concerns  
+1. Detect deepfake videos using a pre-trained TensorFlow video model  
+2. Detect deepfake audios using a pre-trained audio classifier  
+3. Chat with an AI-powered assistant (via Gemini API) to explore topics related to deepfake detection, risks, countermeasures, legal aspects, and ethical concerns  
 
 ---
 
-## 🔧 Features
+##  Features
 
 - **Video Deepfake Detection**  
   Upload a video file (`.mp4`, `.avi`, `.mov`, `.mkv`) and the system will:
@@ -29,7 +29,7 @@ This project is a **Streamlit-based web application** that allows you to:
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 /deepfake_detection/
@@ -40,31 +40,31 @@ This project is a **Streamlit-based web application** that allows you to:
 
 ---
 
-## 💻 Installation
+##  Installation
 
-1️⃣ **Clone the repository**
+1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/deepfake-detection-system.git
 cd deepfake-detection-system
 ```
 
-2️⃣ **Set up Python environment**
+2️. **Set up Python environment**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3️⃣ **Install dependencies**
+3️. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ **Configure Gemini API key**  
+4️. **Configure Gemini API key**  
 Replace the `GEMINI_API_KEY` in the script (`main_app.py`) with your own Gemini API key.
 
 ---
 
-## 🚀 Run the App
+##  Run the App
 
 ```bash
 streamlit run main_app.py
@@ -74,7 +74,7 @@ The app will open in your default browser at `http://localhost:8501/`.
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.8+
 - TensorFlow
@@ -92,14 +92,14 @@ pip install tensorflow opencv-python numpy librosa plotly requests streamlit
 
 ---
 
-## 🛡 Disclaimer
+##  Disclaimer
 
 This tool is for **research and educational purposes only**.  
 The accuracy of deepfake detection models may vary depending on the dataset, and results should not be used for legal or forensic decisions.
 
 ---
 
-## 📄 License
+##  License
 
 [MIT License](LICENSE)
 
